@@ -1,0 +1,13 @@
+.modal-form{
+    input, textarea{
+        border: none;
+    }
+    .form-control, .form-control:focus{
+        color: white;
+    }
+    .submit-button, .submit-button:focus, .submit-button:active{
+        border-radius: 10px;
+        width: 100px;
+        height: 40px;
+    }
+}

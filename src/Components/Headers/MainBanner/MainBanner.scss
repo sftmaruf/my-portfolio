@@ -1,0 +1,25 @@
+$myColor: red;
+
+.mainbanner-container{
+    min-height: 1125.6px;
+    .banner-writing{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            padding-top: 100px;
+            font-family: 'Oswald', sans-serif;
+        }
+    }
+    .image{
+        background-image: url('../../../resources/banner.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    @media(max-width: 1204px){
+        .image{
+            display: none;
+            border: 1px solid red;
+        }
+    }
+}
