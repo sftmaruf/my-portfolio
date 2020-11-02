@@ -11,7 +11,7 @@ const Projects = () => {
     ]
 
     return (
-        <div className='mt-5'>
+        <div id = 'projects' className='mt-5'>
             <h2  style = {{ fontFamily: "'Poppins', sans-serif"}} className='text-center'>Projects</h2>
             <div className='d-flex justify-content-center flex-wrap mt-2'>
                 {

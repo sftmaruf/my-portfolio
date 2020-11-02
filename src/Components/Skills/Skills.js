@@ -5,8 +5,8 @@ import './Skills.scss';
 
 const Skills = () => {
     return (
-        <div className='skills-container'>
-            <h2  style = {{ fontFamily: "'Poppins', sans-serif"}} className='text-center'>Skills</h2>
+        <div id = 'skills' className='skills-container'>
+            <h2 style = {{ fontFamily: "'Poppins', sans-serif"}} className='text-center'>Skills</h2>
             <div className='d-flex flex-wrap justify-content-around mt-5'>
                 <FontAwesomeIcon className='fa-3x brand-icon' icon={faHtml5} />
                 <FontAwesomeIcon className='fa-3x brand-icon' icon={faCss3} />
